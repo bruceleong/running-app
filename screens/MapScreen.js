@@ -108,7 +108,7 @@ export default class Map extends Component {
                     this.state.showStartButton &&
                     <View>
                         <Button
-                            title="Start your run"
+                            title="Start Your Run"
                             color="#841584"
                             onPress={() => this.startRun()} />
                     </View>
@@ -118,7 +118,7 @@ export default class Map extends Component {
                     this.state.showStopButton &&
                     <View>
                         <Button
-                            title="Stop run"
+                            title="Stop Your Run"
                             color="blue"
                             onPress={() => this.stopRun()} />
                     </View>
